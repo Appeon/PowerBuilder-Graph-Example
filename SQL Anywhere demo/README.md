@@ -82,10 +82,10 @@ The of_createData function etc. generate the JSON string from the graph DataObje
 ```
 String ls_Title, ls_Option, ls_data
 //Title
-ls_Title = dw_1.Describe(\"gr_1.title\")
+ls_Title = dw_1.Describe("gr_1.title")
 wb_1.of_SetTitle(ls_Title)
 //Style
-wb_1.of_SetStyle(\"area\")
+wb_1.of_SetStyle("area")
 //Width
 wb_1.of_SetWidth(750)
 //Height
@@ -105,7 +105,7 @@ The other options for the chart are configured through the options variable. If 
 
 For example, to configure the color, you can add an array in the options argument:
 
-{title:\'Title\', legend:{position:\'bottom\'},colors:\[\'red\',\'\#004411\',\'rgb(128,128,128)\'\]}
+{title:'Title', legend:{position:'bottom'},colors:['red','#004411','rgb(128,128,128)']}
 
 ## To apply ECharts
 
@@ -133,7 +133,7 @@ event ue_clicked(string as_arg);
 
 end event
 ```
-RegisterEvent(\"ue_clicked\");
+RegisterEvent("ue_clicked");
 ```
 
 For a sample code, see the n_webbrowser user object in this demo.
@@ -165,10 +165,10 @@ The of_CreateOption function etc. generate the JSON string from the graph DataOb
 String ls_Title, ls_Option, ls_data
 Boolean lb_Toolbox
 //Title
-ls_Title = dw_1.Describe(\"gr_1.title\")
+ls_Title = dw_1.Describe("gr_1.title")
 wb_1.of_SetTitle(ls_Title)
 //Style
-wb_1.of_SetStyle(\"area\")
+wb_1.of_SetStyle("area")
 //Width
 wb_1.of_SetWidth(750)
 //Height
@@ -187,4 +187,4 @@ The other options for the chart are configured through the options variable. If 
 
 For example, to configure the color, you can add an array in the options argument:
 
-{title:{text:\'default title\',left:\'center\'},color:\[\'red\',\'\#004411\',\'rgb(128,128,128)\'\]}
+{title:{text:'default title',left:'center'},color:['red','#004411','rgb(128,128,128)']}
