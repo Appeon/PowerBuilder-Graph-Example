@@ -105,7 +105,7 @@ The other options for the chart are configured through the options variable. If 
 
 For example, to configure the color, you can add an array in the options argument:
 
-{title:\'Title\', legend:{position:\'bottom\'},colors:\[\'red\',\'\#004411\',\'rgb(128,128,128)\'\]}
+{title:'Title', legend:{position:'bottom'},colors:['red','#004411','rgb(128,128,128)']}
 
 ## To apply ECharts
 
@@ -133,7 +133,7 @@ event ue_clicked(string as_arg);
 
 end event
 ```
-RegisterEvent(\"ue_clicked\");
+RegisterEvent("ue_clicked");
 ```
 
 For a sample code, see the n_webbrowser user object in this demo.
@@ -187,4 +187,4 @@ The other options for the chart are configured through the options variable. If 
 
 For example, to configure the color, you can add an array in the options argument:
 
-{title:{text:\'default title\',left:\'center\'},color:\[\'red\',\'\#004411\',\'rgb(128,128,128)\'\]}
+{title:{text:'default title',left:'center'},color:['red','#004411','rgb(128,128,128)']}
