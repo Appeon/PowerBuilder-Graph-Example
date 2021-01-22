@@ -82,10 +82,10 @@ The of_createData function etc. generate the JSON string from the graph DataObje
 ```
 String ls_Title, ls_Option, ls_data
 //Title
-ls_Title = dw_1.Describe(\"gr_1.title\")
+ls_Title = dw_1.Describe("gr_1.title")
 wb_1.of_SetTitle(ls_Title)
 //Style
-wb_1.of_SetStyle(\"area\")
+wb_1.of_SetStyle("area")
 //Width
 wb_1.of_SetWidth(750)
 //Height
@@ -165,10 +165,10 @@ The of_CreateOption function etc. generate the JSON string from the graph DataOb
 String ls_Title, ls_Option, ls_data
 Boolean lb_Toolbox
 //Title
-ls_Title = dw_1.Describe(\"gr_1.title\")
+ls_Title = dw_1.Describe("gr_1.title")
 wb_1.of_SetTitle(ls_Title)
 //Style
-wb_1.of_SetStyle(\"area\")
+wb_1.of_SetStyle("area")
 //Width
 wb_1.of_SetWidth(750)
 //Height
