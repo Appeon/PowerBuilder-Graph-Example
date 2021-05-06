@@ -13,7 +13,7 @@ The project is structured as follows.
 ```
 |—— PowerBuilder-RestClient-Example Repository 
 	|—— PostgreSQL demo				Using PostgreSQL DataBase
-    |—— SQL Anywhere demo			Using SQL Anywhere DataBase
+    	|—— SQL Anywhere demo				Using SQL Anywhere DataBase
 ```
 
 ### General steps to apply a chart (exposed as JavaScript classes)
