@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <title>Charts</title>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/loader.js"></script>
+	<link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/core/tooltip.css">
+	<link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/util/util.css">
+	<link id="load-css-2" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/orgchart/orgchart.css">
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_browserchart_module.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_orgchart_module.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_fw_module.js"></script>	
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/third_party/dygraphs/dygraph-tickers-combined.js"></script>
+	<script charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_timeline_module.js"></script>
+</head>
+<body>
+    <div id="main" style="width:800px;height:600px;"><div id="google-visualization-errors-all-1" style="display: block; padding-top: 2px;"><div id="google-visualization-errors-2" style="font: 0.8em arial, sans-serif; margin-bottom: 5px;"><span style="background-color: rgb(192, 0, 0); color: white; padding: 2px;">Not enough columns given to draw the requested chart.<span style="font-size: 1.1em; font-weight: bold; cursor: pointer; padding-left: 10px; color: black; text-align: right; vertical-align: top;">×</span></span></div></div><div style="position: relative;"><div dir="ltr" style="position: relative; width: 1592px; height: 653px;"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 610px; left: 810px; white-space: nowrap; font-family: Arial; font-size: 8px;">-._.-*^*-._.-*^*-._.-</div><div></div></div></div>	
+    <script type="text/javascript">
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', '');
+        data.addColumn('number', '');
+        var options = {};
+        var myChart = new google.visualization.PieChart(document.getElementById('main'));
+        myChart.draw(data, options);
+		function resizeEnd(){
+			options.width=window.innerWidth-20;
+			options.height=window.innerHeight-20;
+			myChart.draw(data,options);
+		}
+		window.addEventListener("resize",resizeEnd,false);
+		google.visualization.events.addListener(myChart,'select',selectHandler);		
+		function selectHandler(e){
+			var selection = myChart.getSelection();
+			if (selection.length > 0 && selection[0].row != null && selection[0].column != null){
+				window.webBrowser.ue_clicked('{"seriesName":"' + data.getColumnLabel(selection[0].column) + '","name":"' +
+				data.getValue(selection[0].row,0) + '","value":"' + data.getValue(selection[0].row,selection[0].column) + '"}');				
+			} else if (selection.length > 0 && selection[0].row != null){
+				window.webBrowser.ue_clicked('{"seriesName":"' + data.getColumnLabel(1) + '","name":"' +
+				data.getValue(selection[0].row,0) + '","value":"' + data.getValue(selection[0].row,1) + '"}');				
+			}
+		}
+    </script>
+</body></html>

@@ -111,7 +111,7 @@ For example, to configure the color, you can add an array in the options argumen
 
 Step 1: Create an HTML page which contains the following:
 
--   References to the offline JS files for ECharts: echarts-en.js and echarts-gl.min.js.
+-   References to the offline JS files for ECharts: echarts.js and echarts-gl.js.
 
 -   A div container where the chart will be rendered.
 
@@ -150,7 +150,7 @@ Step 5: Bind the select event of the point in the chart with the selectHandler f
 
 ## To import ECharts from demo
 
-The demo app has shown cases for many chart styles including Line, Candlestick(K-Line), Area, Bar, Pie, Scatter, Radar, and Funnel.
+The demo app has shown cases for many chart styles including Line, Candlestick(K-Line), Area, Bar, Pie, Scatter, Radar, Funnel and Gauge.
 
 If you want to directly integrate the ECharts from the demo app into your app, take the following steps:
 
@@ -188,3 +188,5 @@ The other options for the chart are configured through the options variable. If 
 For example, to configure the color, you can add an array in the options argument:
 
 {title:{text:'default title',left:'center'},color:['red','#004411','rgb(128,128,128)']}
+
+Note: The current version of echarts.js is 5.0.2 and echarts-gl.js is 2.0.2. You can download and use a newer version of these files from https://github.com/apache/echarts/releases.
