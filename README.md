@@ -3,7 +3,7 @@
 This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2021](https://www.appeon.com/products/powerbuilder). It shows:
 
 1. How to use the PowerBuilder WebBrowser control to render the third-party visual charts which are exposed as JavaScript classes. 
-2. How to execute JavaScripts in the PowerBuilder application to dynamically adjust data display in different chart styles.
+2. How to execute JavaScript in the PowerBuilder application to dynamically adjust data display in different chart styles.
 3. How to connect the chart event with the WebBrowser event so that JavaScript and PowerScript can interact with each other.
 
 ### Sample Project Structure
@@ -11,9 +11,9 @@ This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 202
 The project is structured as follows.
 
 ```
-|—— PowerBuilder-RestClient-Example Repository 
-	|—— PostgreSQL demo				Using PostgreSQL DataBase
-    	|—— SQL Anywhere demo				Using SQL Anywhere DataBase
+|—— PowerBuilder-Graph-Example Repository 
+	|—— PostgreSQL demo				Using PostgreSQL Database
+    |—— SQL Anywhere demo			Using SQL Anywhere Database
 ```
 
 ### General steps to apply a chart (exposed as JavaScript classes)
@@ -67,7 +67,7 @@ RegisterEvent("ue_clicked")
 
 For a sample code, see the n_webbrowser user object in this demo.
 
-Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of the WebBrowser control to execute JavaScripts to define three variables for the HTML page:
+Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of the WebBrowser control to execute JavaScript to define three variables for the HTML page:
 
 -   data -- the value comes from the DataWindow, and generated as JSON strings through JSONGenerator
 
