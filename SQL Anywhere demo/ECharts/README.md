@@ -1,4 +1,4 @@
-# Graph Demo Readme
+# Echarts Demo Readme
 
 This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2021](https://www.appeon.com/products/powerbuilder). It shows:
 
