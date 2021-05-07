@@ -15,6 +15,14 @@ The project is structured as follows.
 	|—— PostgreSQL demo				Using PostgreSQL Database
     	|—— SQL Anywhere demo				Using SQL Anywhere Database
 ```
+### Setting Up the Project
+
+Download this PowerBuilder demo application, and then:
+
+1. Open the PowerBuilder project in PowerBuilder 2021 Beta.
+2. Download the database file from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file. If using PostgreSQL Database, download <b>pbpostgres_for_postgresql.zip</b>. If using SQL Anywhere Database, download <b>pbdemo2021_for_sqlanywhere.zip</b>
+3. Configure the ODBC Data Source.
+4. Run the PowerBuilder project.
 
 ### General steps to apply a chart (exposed as JavaScript classes)
 
