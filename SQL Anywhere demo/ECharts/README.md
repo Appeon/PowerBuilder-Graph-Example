@@ -6,21 +6,12 @@ This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 202
 2. How to execute JavaScript in the PowerBuilder application to dynamically adjust data display in different chart styles.
 3. How to connect the chart event with the WebBrowser event so that JavaScript and PowerScript can interact with each other.
 
-### Sample Project Structure
-
-The project is structured as follows.
-
-```
-|—— PowerBuilder-Graph-Example Repository 
-	|—— PostgreSQL demo				Using PostgreSQL Database
-    	|—— SQL Anywhere demo				Using SQL Anywhere Database
-```
 ### Setting Up the Project
 
 Download this PowerBuilder demo application, and then:
 
 1. Open the PowerBuilder project in PowerBuilder 2021 Beta.
-2. Download the database file from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file. If using PostgreSQL Database, download <b>pbpostgres_for_postgresql.zip</b>. If using SQL Anywhere Database, download <b>pbdemo2021_for_sqlanywhere.zip</b>.
+2. Download the database file <b>pbdemo2021_for_sqlanywhere.zip</b> from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file.
 3. Configure the ODBC Data Source.
 4. Run the PowerBuilder project.
 
