@@ -13,7 +13,7 @@ The project is structured as follows.
 ```
 |—— PowerBuilder-Graph-Example Repository 
 	|—— PostgreSQL demo				Using PostgreSQL Database
-    	|—— SQL Anywhere demo			Using SQL Anywhere Database
+    	|—— SQL Anywhere demo				Using SQL Anywhere Database
 ```
 
 ### General steps to apply a chart (exposed as JavaScript classes)
