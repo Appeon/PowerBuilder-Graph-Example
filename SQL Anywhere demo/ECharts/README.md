@@ -65,7 +65,7 @@ RegisterEvent("ue_clicked");
 
 For a sample code, see the n_webbrowser user object in this demo.
 
-Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of the WebBrowser control to execute JavaScripts to define two variables for the HTML page:
+Step 4: Use the EvaluateJavaScriptSync and EvaluateJavaScriptAsync functions of the WebBrowser control to execute JavaScript to define two variables for the HTML page:
 
 -   options - the value comes from the DataWindow, and generated as JSON strings through JSONGenerator
 
