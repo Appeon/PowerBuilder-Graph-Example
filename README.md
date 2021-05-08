@@ -12,7 +12,7 @@ The project is structured as follows.
 
 ```
 |—— PowerBuilder-Graph-Example Repository 
-		|—— PostgreSQL demo					Using PostgreSQL Database
+	|—— PostgreSQL demo					Using PostgreSQL Database
     	|—— SQL Anywhere demo				Using SQL Anywhere Database
 ```
 ### Setting Up the Project
