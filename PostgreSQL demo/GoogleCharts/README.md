@@ -11,7 +11,7 @@ This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 202
 Download this PowerBuilder demo application, and then:
 
 1. Open the PowerBuilder project in PowerBuilder 2021 Beta.
-2. Download the database file <b>pbpostgres_for_postgresql.zip</b> from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file.
+2. Download the database file <b>pbdemo2021_for_postgresql.zip</b> from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file.
 3. Configure the ODBC data source.
 4. Copy the database connection string in the configured data source to replace the connection string in the original project. Note that the PWD in the connection string is masked. Please manually change it to the real password.
 5. Run the PowerBuilder project.
