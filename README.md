@@ -20,9 +20,14 @@ The project is structured as follows.
 Download this PowerBuilder demo application, and then:
 
 1. Open the PowerBuilder project in PowerBuilder 2021.
-2. Download the database file from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database), and restore the database using the downloaded database file. If using PostgreSQL Database, download <b>pbdemo2021_for_postgresql.zip</b>. If using SQL Anywhere Database, download <b>pbdemo2021_for_sqlanywhere.zip</b>.
-3. Configure the ODBC data source.
-4. Copy the database connection string in the configured data source to replace the connection string in the original project. Note that the PWD in the connection string is masked. Please manually change it to the real password.
+2. If you already had the corresponding database driver installed on the machine when you installed PowerBuilder 2021 and selected Database Provider, you can just skip step#3 and step#4 below to run the PowerBuilder project directly. Otherwise, please follow the steps below to create the ODBC data source. 
+3. Download the database file from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database). If using PostgreSQL Database, download <b>pbdemo2021_for_postgresql.zip</b>. If using SQL Anywhere Database, download <b>pbdemo2021_for_sqlanywhere.zip</b>.
+4. Use the downloaded database file to create a new ODBC data source referring to the below must-configure connection settings:
+   ```
+   Data source name: 	PB Demo DB V2021	//Must be the same as the Data source name specified in the code.
+   User ID: 			dba
+   Password: 			sql
+   ```
 5. Run the PowerBuilder project.
 
 ### General steps to apply a chart (exposed as JavaScript classes)
