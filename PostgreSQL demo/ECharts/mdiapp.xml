@@ -34,13 +34,14 @@
         </Panel>
         <Panel Text="Echarts" PictureName="ChartBig!" Tag="Boards" Visible="true" >
           <LargeButton Text="Line" PictureName="png\line.png"  PowerTipText="Basic Line" PowerTipDescription="Basic Line infomation" Tag="Line" Clicked="ue_ButtonClicked"  />
-          <LargeButton Text="K-Line" PictureName="png\K-line.png"  PowerTipText="K-Line" PowerTipDescription="K-Line infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Candlestick" PictureName="png\candlestick.png"  PowerTipText="Candlestick" PowerTipDescription="Candlestick infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Area" PictureName="png\area.png"  PowerTipText="Area" PowerTipDescription="Area infomation" Tag="Area" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Bar" PictureName="png\bar.png"  PowerTipText="Bar" PowerTipDescription="Bar infomation" Tag="Bar" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Pie" PictureName="png\pie.png"  PowerTipText="Pie" PowerTipDescription="Pie infomation" Tag="Pie" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Scatter" PictureName="png\scatter.png"  PowerTipText="Scatter" PowerTipDescription="Scatter infomation" Tag="Scatter" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Radar" PictureName="png\radar.png"  PowerTipText="Radar" PowerTipDescription="Radar infomation" Tag="Radar" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Funnel" PictureName="png\funnel.png"  PowerTipText="Funnel" PowerTipDescription="Funnel infomation" Tag="Funnel" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Gauge" PictureName="png\gauge.png"  PowerTipText="Gauge" PowerTipDescription="Gauge infomation" Tag="Gauge" Clicked="ue_ButtonClicked"  />
         </Panel>
         <Panel Text="Dynamic Data Source" PictureName="PasteSQL1!" Tag="Print" Visible="true">
           <LargeButton Text="DataWindow" PictureName="png\datawindow.png"  PowerTipText="From DataWindow" PowerTipDescription="From DataWindow infomation" Tag="DataWindow" Clicked="ue_ButtonClicked"  />

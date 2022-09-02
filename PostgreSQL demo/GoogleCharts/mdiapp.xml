@@ -34,7 +34,7 @@
         </Panel>
         <Panel Text="Charts" PictureName="ChartBig!" Tag="Boards" Visible="true" >
           <LargeButton Text="Line" PictureName="png\line.png"  PowerTipText="Basic Line" PowerTipDescription="Basic Line infomation" Tag="Line" Clicked="ue_ButtonClicked"  />
-          <LargeButton Text="K-Line" PictureName="png\K-line.png"  PowerTipText="K-Line" PowerTipDescription="K-Line infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Candlestick" PictureName="png\candlestick.png"  PowerTipText="Candlestick" PowerTipDescription="Candlestick infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Area" PictureName="png\area.png"  PowerTipText="Area" PowerTipDescription="Area infomation" Tag="Area" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Column" PictureName="png\column.png"  PowerTipText="Bar" PowerTipDescription="Bar infomation" Tag="Bar" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Pie" PictureName="png\pie.png"  PowerTipText="Pie" PowerTipDescription="Pie infomation" Tag="Pie" Clicked="ue_ButtonClicked"  />
