@@ -1,6 +1,6 @@
 ﻿# Graph Demo Readme
 
-This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2022](https://www.appeon.com/products/powerbuilder). It shows:
+This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2022 R2](https://www.appeon.com/products/powerbuilder). It shows:
 
 1. How to use the PowerBuilder WebBrowser control to render the third-party visual charts which are exposed as JavaScript classes. 
 2. How to execute JavaScript in the PowerBuilder application to dynamically adjust data display in different chart styles.
@@ -19,12 +19,12 @@ The project is structured as follows.
 
 Download this PowerBuilder demo application, and then:
 
-1. Open the PowerBuilder project in PowerBuilder 2022.
-2. If you already had the corresponding database driver installed on the machine when you installed PowerBuilder 2022 and selected Database Provider, you can just skip step#3 and step#4 below to run the PowerBuilder project directly. Otherwise, please follow the steps below to create the ODBC data source. 
+1. Open the PowerBuilder project in PowerBuilder 2022 R2.
+2. If you already had the corresponding database driver installed on the machine when you installed PowerBuilder 2022 R2 and selected Database Provider, you can just skip step#3 and step#4 below to run the PowerBuilder project directly. Otherwise, please follow the steps below to create the ODBC data source. 
 3. Download the database file from [PowerBuilder-Project-Example-Database](https://github.com/Appeon/PowerBuilder-Project-Example-Database). If using PostgreSQL Database, download <b>pbdemo2021_for_postgresql.zip</b>. If using SQL Anywhere Database, download <b>pbdemo2021_for_sqlanywhere.zip</b>.
 4. Use the downloaded database file to create a new ODBC data source referring to the below must-configure connection settings:
    ```
-   Data source name: 	PB Demo DB V2021	//Must be the same as the Data source name specified in the code.
+   Data source name: 	PB Demo DB V2022R2	//Must be the same as the Data source name specified in the code.
    User ID: 		dba
    Password: 		sql
    ```
