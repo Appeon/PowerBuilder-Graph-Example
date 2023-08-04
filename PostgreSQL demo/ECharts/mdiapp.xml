@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <RibbonBar BuiltinTheme="0" Font="FaceName:Segoe UI; TextSize:8">
   <RibbonItems>
-    <ApplicationButton Text="Graph App">
+    <ApplicationButton Text="Graph App" Enabled="true" Tag="Myapp">
       <ApplicationMenu>
         <Master>
-          	<Item Text="&amp;About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About" Type="0" Clicked="ue_mastermenuclicked"></Item>
-    	  	<Item Text="&amp;View Readme" PictureName="png\readme.png" Checked="false" Enabled="true" Tag="Readme" Type="0" Clicked="ue_mastermenuclicked"></Item>
-    	  	<Item Text="&amp;QuickStart" PictureName="png\quickstart.png" Checked="false" Enabled="true" Tag="Welcome" Type="0" Clicked="ue_mastermenuclicked"></Item>
-    	  	<Item Text="&amp;SQL Converter" PictureName="png\converter.png" Checked="false" Enabled="true" Tag="SQLConverter" Type="0" Clicked="ue_mastermenuclicked"></Item>
-    	  	<Item Text="&amp;Exit" PictureName="SignOutBig!" Checked="false" Enabled="true" Tag="Exit" Type="0" Clicked="ue_mastermenuclicked"></Item>
+          <Item Text="&amp;About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;View Readme" PictureName="png\readme.png" Checked="false" Enabled="true" Tag="Readme" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;QuickStart" PictureName="png\quickstart.png" Checked="false" Enabled="true" Tag="Welcome" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;SQL Converter" PictureName="png\converter.png" Checked="false" Enabled="true" Tag="SQLConverter" Type="0" Clicked="ue_mastermenuclicked"></Item>
+  	   <Item Text="&amp;Exit" PictureName="SignOutBig!" Checked="false" Enabled="true" Tag="Exit" Type="0" Clicked="ue_mastermenuclicked"></Item>
         </Master>
       </ApplicationMenu>
     </ApplicationButton>
@@ -34,7 +34,7 @@
         </Panel>
         <Panel Text="Echarts" PictureName="ChartBig!" Tag="Boards" Visible="true" >
           <LargeButton Text="Line" PictureName="png\line.png"  PowerTipText="Basic Line" PowerTipDescription="Basic Line infomation" Tag="Line" Clicked="ue_ButtonClicked"  />
-          <LargeButton Text="Candlestick" PictureName="png\candlestick.png"  PowerTipText="Candlestick" PowerTipDescription="Candlestick infomation" Tag="K-Line" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Candlestick" PictureName="png\candlestick.png"  PowerTipText="Candlestick" PowerTipDescription="Candlestick infomation" Tag="Candlestick" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Area" PictureName="png\area.png"  PowerTipText="Area" PowerTipDescription="Area infomation" Tag="Area" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Bar" PictureName="png\bar.png"  PowerTipText="Bar" PowerTipDescription="Bar infomation" Tag="Bar" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="Pie" PictureName="png\pie.png"  PowerTipText="Pie" PowerTipDescription="Pie infomation" Tag="Pie" Clicked="ue_ButtonClicked"  />
@@ -45,7 +45,7 @@
         </Panel>
         <Panel Text="Dynamic Data Source" PictureName="PasteSQL1!" Tag="Print" Visible="true">
           <LargeButton Text="DataWindow" PictureName="png\datawindow.png"  PowerTipText="From DataWindow" PowerTipDescription="From DataWindow infomation" Tag="DataWindow" Clicked="ue_ButtonClicked"  />
-          <LargeButton Text="Table" PictureName="png\fromtable.png"  PowerTipText="From Table" PowerTipDescription="From Table infomation" Tag="Table" Clicked="ue_ButtonClicked"  />
+          <LargeButton Text="Table" PictureName="png\table.png"  PowerTipText="From Table" PowerTipDescription="From Table infomation" Tag="Table" Clicked="ue_ButtonClicked"  />
           <LargeButton Text="SQL Syntax" PictureName="png\sql.png"  PowerTipText="From SQL" PowerTipDescription="From SQL infomation" Tag="SQL" Clicked="ue_ButtonClicked"  />
         </Panel>
         <Panel Text="Select" Enabled="true" Tag="Select" Visible="true" PictureName="ReportsBig!">
