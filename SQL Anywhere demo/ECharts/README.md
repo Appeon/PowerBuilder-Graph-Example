@@ -1,6 +1,6 @@
 # Echarts Demo Readme
 
-This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2022 R2](https://www.appeon.com/products/powerbuilder). It shows:
+This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2022 R3](https://www.appeon.com/products/powerbuilder). It shows:
 
 1. How to use the PowerBuilder WebBrowser control to render the third-party visual charts which are exposed as JavaScript classes. 
 2. How to execute JavaScript in the PowerBuilder application to dynamically adjust data display in different chart styles.
@@ -10,15 +10,15 @@ This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 202
 
 Download this PowerBuilder demo application, and then:
 
-1. Open the PowerBuilder project in PowerBuilder 2022 R2.
+1. Open the PowerBuilder project in PowerBuilder 2022 R3.
 
-2. If you already had the corresponding SQL Anywhere database driver installed on the machine when you installed PowerBuilder 2022 R2 and selected SQL Anywhere for Database Provider, you can just skip step#3 and step#4 below to run the PowerBuilder project directly. Otherwise, please follow the steps below to create the ODBC data source. 
+2. If you already had the corresponding SQL Anywhere database driver installed on the machine when you installed PowerBuilder 2022 R3 and selected SQL Anywhere for Database Provider, you can just skip step#3 and step#4 below to run the PowerBuilder project directly. Otherwise, please follow the steps below to create the ODBC data source. 
  R2lder-Project-Example-Database). 
 
 4. Use the downloaded database file to create a new ODBC data source referring to the below must-configure connection settings:
 
    ```
-   Data source name: 	PB Demo DB V2022R2	//Must be the same as the Data source name specified in the code.
+   Data source name: 	PB Demo DB V2022R3	//Must be the same as the Data source name specified in the code.
    User ID: 			dba
    Password: 			sql
    ```
