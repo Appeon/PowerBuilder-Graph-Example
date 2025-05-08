@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<RibbonBar BuiltinTheme="0" Font="FaceName:Segoe UI; TextSize:8">
+<RibbonBar BuiltinTheme="0" Font="FaceName:Segoe UI; TextSize:10">
   <RibbonItems>
     <ApplicationButton Text="Graph App" Enabled="true" Tag="Myapp">
       <ApplicationMenu>
