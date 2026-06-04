@@ -3,6 +3,6 @@ Save Format v3.0(19990112)
  0 "GoogleCharts\\googlecharts.pbt";
  1 "ECharts\\echarts.pbt";
 @end;
-DefaultTarget "GoogleCharts\\googlecharts.pbt";
+DefaultTarget "ECharts\\echarts.pbt";
 DefaultExportEncode "UTF-8";
-DefaultRemoteTarget "GoogleCharts\\googlecharts.pbt";
+DefaultRemoteTarget "ECharts\\echarts.pbt";

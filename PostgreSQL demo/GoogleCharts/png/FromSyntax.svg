@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name="图层_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 16 16">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #3aa338;
+      }
+
+      .st1 {
+        fill: gray;
+      }
+    </style>
+  </defs>
+  <path class="st0" d="M2.51,11c.46-.6,1.17-1,1.99-1,1.38,0,2.5,1.12,2.5,2.5,0,.17-.02.34-.05.5h1c.02-.16.05-.33.05-.5,0-1.93-1.57-3.5-3.5-3.5-1.39,0-2.59.82-3.15,2h1.16Z"/>
+  <path class="st0" d="M6.49,14c-.46.6-1.17,1-1.99,1-1.38,0-2.5-1.12-2.5-2.5,0-.17.02-.34.05-.5h-1c-.02.16-.05.33-.05.5,0,1.93,1.57,3.5,3.5,3.5,1.39,0,2.59-.82,3.15-2h-1.16Z"/>
+  <rect class="st0" x="6" y="12" width="3" height="1"/>
+  <rect class="st0" x="8" y="10" width="1" height="2"/>
+  <rect class="st0" y="12" width="3" height="1"/>
+  <rect class="st0" y="13" width="1" height="2"/>
+  <g>
+    <rect class="st1" x="5" y="5" width="4" height="1"/>
+    <rect class="st1" x="9" y="8" width="3" height="1"/>
+    <rect class="st1" x="10" y="12" width="2" height="1"/>
+  </g>
+  <polygon class="st1" points="12 1 2 1 2 8 3 8 3 5 3 2 11 2 11 6 14 6 14 15 9 15 9 16 15 16 15 5 12 1"/>
+</svg>
